@@ -32,5 +32,7 @@ def shape_arabic(text):
 
 # Example usage
 if __name__ == "__main__":
-    sample = "سلام"
-    print(shape_arabic(sample))
+    samples = ["سلام", "ورد", "زرافة"]
+    for word in samples:
+        print(f"{word} → {shape_arabic(word)}")
+
